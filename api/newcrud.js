@@ -8,9 +8,9 @@ const personSchema = new mongoose.Schema({
 })
 
 const Person = mongoose.model(
-    'YouTubeLesson',
+    'Person',
     personSchema,
-    'People'
+    'YouTubeLesson'
 )
  
 mongoose.connect(
