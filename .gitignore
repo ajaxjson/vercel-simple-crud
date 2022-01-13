@@ -6,3 +6,7 @@
 .env.build
 
 .vercel
+.txt
+.bak
+cmd.txt
+cmd.txt.bak
