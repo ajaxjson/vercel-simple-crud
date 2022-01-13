@@ -1,0 +1,8 @@
+D:\NodeJsSvelte\vercel-simple-crud
+GIT : https://github.com/sveltedummy/vercel-simple-crud
+NPM : https://www.npmjs.com/package/vercel
+	https://www.npmjs.com/package/svelte-spinner
+	https://vercel.com ajaxjson@gmail.com
+D:\NodeJsSvelte> npx degit https://github.com/sveltedummy/vercel-simple-crud.git vercel-simple-crud
+
+PS D:\NodeJsSvelte> npm intall -g vercel
