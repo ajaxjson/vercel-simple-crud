@@ -12,7 +12,7 @@ const Person = mongoose.model(
     personSchema,
     'People'
 )
-
+ 
 mongoose.connect(
     uri, 
     {useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false}, 
