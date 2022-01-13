@@ -10,7 +10,7 @@ const personSchema = new mongoose.Schema({
 const Person = mongoose.model(
     'YouTubeLesson',
     personSchema,
-    'Person'
+    'People'
 )
  
 mongoose.connect(
