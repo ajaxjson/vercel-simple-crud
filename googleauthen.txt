@@ -1,0 +1,18 @@
+รบกวนสอบถามเรื่อง Google drive API นิดนึงครับ
+ผมต้องการขอ access token แบบ service account  โดยที่
+1. ผมทำตามขั้นตอนใน https://cloud.google.com/iam/docs/service-accounts
+ โดยสร้าง service account และสร้างคีย์แบบ JSON แล้วดาวน์โหลดเอา private key มา
+2. ผมใช้ php และ curl ในการสร้าง http request ขึ้นมา โดยใส่ parameter ตามขั้นตอนใน 1
+3. ผมสร้าง signature จาก base64(utf8(header)).base64(utf8(claimset)) แบบ  RSA256 ด้วยคำสั่ง openssl_pkey_get_private() แล้วรวมเป็น assertion ตามขั้นตอนใน 1
+4. ผมได้แชร์ไดร์ฟ (google drive) โดยอนุญาตให้ service account ของผมเข้าใช้งานแบบ Editor ได้
+5. ผมส่ง access token request ไปที่ https://accounts.google.com/o/oauth2/auth
+ผลปรากฎว่ามันขึ้น  http response เป็น "Move Temporarily" (เดาว่าน่าจะเป็น Http 302)  แล้วมีลิงค์ให้กดไปอีกหน้าซึ่งเป็นหน้า user consent ปกติ
+ผมทำอะไรผิดตรงไหนครับ?  รบกวนช่วยดูให้ทีครับ
+
+
+Project MyGoogleLogin   ,Project-Id fiery-muse-3383138313
+
+Free domain 
+https://users.wix.com/
+user : ajaxjson@gmail.com
+pass: Boon080718$
